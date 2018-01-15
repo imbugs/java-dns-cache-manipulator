@@ -96,6 +96,7 @@
 				<configuration>
 					<archive>
 						<manifestEntries>
+							<Premain-Class>com.alibaba.dcm.agent.DcmPreAgent</Premain-Class>
 							<Agent-Class>com.alibaba.dcm.agent.DcmAgent</Agent-Class>
 							<Can-Redefine-Classes>false</Can-Redefine-Classes>
 							<Can-Retransform-Classes>false</Can-Retransform-Classes>
